@@ -1,3 +1,14 @@
+@import url(forms.css);
+@import url(login.css);
+@import url(main.css);
+
+:root {
+    --color-footer: #757575;
+    --color-language: #949494;
+    --color-header: white;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -54,9 +65,8 @@ body::after {
 
 /* FOOTER */
 footer { 
-
     background: rgba(0, 0, 0, .75);
-    color: #757575;
+    color: var(--color-footer);
     display: flex;
     font-family: Helvetica, sans-serif;
 }
@@ -75,7 +85,7 @@ footer {
 }
 
 .duvidas-ligue a {
-    color: #757575;
+    color: var(--color-footer);
     font-family: Helvetica;
     font-weight: 600;
 }
@@ -97,14 +107,14 @@ li {
 }
 
 #language select {
-    color: #949494;
+    color: var(--color-language);
     background: none;
     border: none;
     font-weight: 600;
 }
 
 #language {
-    border: 1px solid #949494;
+    border: 1px solid var(--color-language);
     display: flex;
     padding: 10px;
     align-items: center;

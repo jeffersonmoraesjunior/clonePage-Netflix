@@ -5,7 +5,7 @@
 }
 
 #header .language {
-    color: white;
+    color: var(--color-header);
     display: flex;
     width: 130px;
     height:  30px;
@@ -32,7 +32,7 @@
 }
 
 #header .topo select {
-    color: white;
+    color: var(--color-header);
     font-weight: 600;
     background: none;
     border: none;
@@ -56,7 +56,7 @@
     width: 70px;
     height: 35px;
     border-radius: 0.25rem;
-    color: white;
+    color: var(--color-header);
     font-weight: 700;
     background-color: rgb(229, 9, 20);
     align-items: center;
@@ -101,7 +101,7 @@
     margin-right: 10px;
     height: 50px;
     width: 100%;
-    color: #fff;
+    color: var(--color-header);
     background-color: rgb( 0, 0, 0, .6);
     border: none;
     border-radius: 5px;
@@ -127,7 +127,7 @@
     height:  55.9959px;
     padding: 12px 24px;
     border-radius: 0.25rem;
-    color: white;
+    color: var(--color-header);
     font-weight: 700;
     background: rgb(229, 9, 20);
     border-color: rgba(128, 128, 128, 0.7);
