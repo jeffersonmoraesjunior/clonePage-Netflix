@@ -1,16 +1,28 @@
 #box-login {
     background: rgba(0, 0, 0, .75);
     border-radius: 7px;
-    width: 550px;
-    height: 500px;
+    width: 50%;
+    height: auto;
     padding: 40px 40px 68px;
     display: flex;
     margin: 0 auto;
     margin-bottom: 150px;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-enviar {  
+    width: 100%;
+    height: 50px;
     background-color: red;
+    font-weight: 700;
+    border: none;
+}
+
+.button-enviar:hover {  
+    width: 100%;
+    height: 50px;
+    background-color: rgb(189, 0, 0);
     font-weight: 700;
     border: none;
 }
